@@ -33,11 +33,11 @@ exports.getFavouriteList = (req, res, next) => {
     res.render("store/favourite-list", {
       registeredHomes: registeredHomes,
       pageTitle: "My Favourites",
-      currentPage: "favorites",
+      currentPage: "favourites",
     })
   );
 };
-
+ 
 
 exports.postAddToFavourite = (req,res,next) => {
 console.log("Came to add to Favourite", req.body);
