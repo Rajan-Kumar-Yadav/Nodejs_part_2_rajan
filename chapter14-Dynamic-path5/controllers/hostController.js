@@ -34,6 +34,7 @@ exports.getHostHomes = (req, res, next) => {
 
 
 
+
 exports.postAddHome = (req,res,next) => {
   console.log("Home Registration successful for:",req.body );
   const {houseName, price, location, rating, photoUrl} = req.body;

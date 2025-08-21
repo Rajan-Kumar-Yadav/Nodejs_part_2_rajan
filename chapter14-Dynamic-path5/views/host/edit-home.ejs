@@ -6,7 +6,9 @@
       <h1 class="text-3xl font-bold mb-6 text-center text-gray-800">
         <%= editing ? "Edit" : "Register"%> Your Home on AirBnB
       </h1>
-      <form action="/host/add-home/<%= editing ? "edit-home" : "add-home" %>" method="POST" class="max-w-md mx-auto">
+      <form action="/host/<%= editing ? "edit-home" : "add-home" %>" method="POST" class="max-w-md mx-auto">
+
+        
         <input
           type="text"
           name="houseName"
@@ -47,6 +49,8 @@
           value="<%= editing ? "Update" : "Add Home" %>"
           class="w-full bg-red-500 text-white py-2 rounded-md hover:bg-red-600 transition duration-300"
         />
+
+       
       </form>
     </main>
   </body>
