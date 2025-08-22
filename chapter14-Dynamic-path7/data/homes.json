@@ -1,0 +1,24 @@
+[
+  {
+    "id": "2",
+    "houseName": "second house",
+    "price": "1255",
+    "location": "betiiah",
+    "photoUrl": "/images/house2.png"
+  },
+  {
+    "houseName": "summer Home",
+    "price": "1999",
+    "location": "jaipur",
+    "photoUrl": "/images/house3.png",
+    "id": "0.09250537184316321"
+  },
+  {
+    "houseName": "Rajan kumar",
+    "price": "1999",
+    "location": "jaipur",
+    "rating": "4.9",
+    "photoUrl": "/images/house2.png",
+    "id": "0.6828346613214766"
+  }
+]
