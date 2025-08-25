@@ -27,11 +27,12 @@ module.exports = class Home {
   
  }
 
- static findById(homeId,callback) {
+ static findById(homeId) {
+ 
 
  }
 
-  static deleteById(homeId,callback) {
-
+  static deleteById(homeId) {
+   
  }
 }
